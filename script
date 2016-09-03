@@ -1,0 +1,59 @@
+<!--- Add this code to your header and footer of your site or wherever you want it to appear, the CSS is also here.
+Simply replace with your m.me/yourbusiness and edit the CSS as you need!
+See an example on this site www.getbutton.io -->
+
+
+
+<script data-version="v1" data-widget-id="e174b96f-89cd-4d85-afce-5a0b413a4148" id="sonar-ping-async-embedder" type="text/javascript"> (function() { function async_load(){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; var theUrl = '//www.sendsonar.com/assets/send-sonar.js'; s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + 'ref=' + encodeURIComponent(window.location.href); var embedder = document.getElementById('sonar-ping-async-embedder'); embedder.parentNode.insertBefore(s, embedder); } if (window.attachEvent) window.attachEvent('onload', async_load); else window.addEventListener('load', async_load, false); })(); </script>
+<style>
+.fbmessenger{
+position:fixed;
+bottom:55px;
+right:15px;
+z-index:15;
+}
+.fbmessenger img{
+width:60px;
+filter: drop-shadow(2px 6px 4px rgba(0,0,0,.3));
+-webkit-filter: drop-shadow(2px 6px 4px rgba(0,0,0,.3));
+}
+.tooltiptext {
+width: 100px;
+background-color: white;
+color:#ff3322; ;
+text-align: center;
+padding: 10px 0;
+border:1px solid #eeeeee;
+border-radius: 6px;
+position: fixed;
+bottom:75px;
+right:80px;
+font-family:'abel';
+text-transform:uppercase;
+filter: drop-shadow(2px 6px 4px rgba(0,0,0,.3));
+-webkit-filter: drop-shadow(2px 6px 4px rgba(0,0,0,.3));
+}
+.tooltiptext:after {
+content: "";
+position: absolute;
+top: 50%;
+left: 100%;
+margin-top: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent transparent #eeeeee;
+}
+</style>
+Footer Code:
+<script>
+function OpenInNewTab() {
+var screenwidth = screen.width-500;
+window.open("http://m.me/buttoncourier", '_blank',"width=600,height=900,left="+screenwidth);
+}
+</script>
+<a href="http://m.me/buttoncourier" target="_blank" onclick="OpenInNewTab();"> <!-- m.me/facebookpage works for any facebook page -->
+<div class="fbmessenger">
+<img src="https://lh5.ggpht.com/0VYAvZLR9YhosF-thqm8xl8EWsCfrEY_uk2og…" /> <!-- I host the file directly but I'm hotlinking from the Google Play store here for the png file -->
+<span class="tooltiptext mobilehidden">book now</span>
+</div>
+</a>
